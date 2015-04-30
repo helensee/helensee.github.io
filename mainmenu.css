@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sidebar1 {
+	float: left;
+	width: 180px;
+	height: auto;
+	background-color: #000;
+}
+
+ul.nav {
+	list-style: none; 
+	border-top: 20px solid #666;  
+}
+ul.nav li {
+	border-left: 20px solid #666;
+	border-right: 20px solid #666;
+	border-bottom: 20px solid #666;
+
+}
+ul.nav a, ul.nav a:visited {
+	padding: 5px 5px 5px 15px;
+	display: block;
+	width: 120px;
+	height: 100px;
+	text-decoration: none;
+	color: #000;
+	background-color: #AD66D5;
+}
+
+.menuOptions{
+	position: absolute;
+	text-align: center;
+	margin-top: 40px;
+	width: 100px;
+	display: none;
+}
+
+a:hover .menuOptions, ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #000;
+	color: #FFF;
+	display:block;
+}

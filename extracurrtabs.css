@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+/*Tutorial used: http://css-tricks.com/functional-css-tabs-revisited/ */
+
+.tab a:link {
+	color: #ccc;
+	text-decoration: underline; 
+}
+
+.tab a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+
+.tab a:hover, .tab a:active, .tab a:focus {
+	text-decoration: none;
+}
+
+.contain{
+	width: 720px;	
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.tabs {
+	position: relative;   
+	min-height: 500px;
+	clear: both;
+	margin: 20px 0;
+}
+.tab {
+	float: left;
+  
+}
+.tab label {
+	color: #FFF;
+	background-color: #000; /*background-color: 91C5FF*/
+	padding: 10px; 
+	border: 2px solid #000; 
+	margin-left: -1px; 
+	position: relative;
+	left: 1px; 
+}
+.tab label:hover{
+	border: 2px solid #0086C6;
+	background-color: #0086C6;
+	color: #FFF;	
+}
+.tab [type=radio] {
+  display: none;   
+}
+.info {
+	color: #FFF;
+	position: absolute;
+	top: 28px;
+	left: 0;
+	background: #004266;
+	right: 0;
+	bottom: 0;
+	padding: 20px;
+	border: 4px solid #004266; 
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+[type=radio]:checked ~ label {
+	color: #FFF;
+	background: #004266;
+	border: 4px solid #004266;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 1px solid 004266;
+	z-index: 2;
+}
+[type=radio]:checked ~ label ~ .info {
+	z-index: 1;
+}

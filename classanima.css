@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box{
+	float: left;
+}
+.title {
+	height: 40px;
+	width: 180px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.title .front {
+	position: absolute;
+	font-size: 14px;
+	-webkit-transform: perspective(600px) rotateY(0deg);
+	-mox-box-transform: perspective(600px) rotateY(0deg);
+	transform: perspective(600px) rotateY(0deg);
+	background: #68006A;
+	color: #FFF;
+	height: 40px;
+	width: 180px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: -moz-box-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+}
+.title .back {
+	position: absolute;
+	-webkit-transform: perspective(600px) rotateY(180deg);
+	-moz-box-transform: perspective(600px) rotateY(180deg);
+	transform: perspective(600px) rotateY(180deg);
+	background: #E600EC;
+	color: #000;
+	height: 40px;
+	width: 180px;
+	margin: auto;
+	-webkit-backface-visibility: hidden;
+	-box-box-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
+	transition: -moz-box-transform .5s linear 0s;
+	transition: transform .5s linear 0s;
+}
+.title:hover .front{
+	-webkit-transform: perspective(600px) rotateY(-180deg);
+	-moz-box-transform: perspective(600px) rotateY(-180deg);
+	transform: perspective(600px) rotateY(-180deg);
+  }
+
+.title:hover .back{
+	-webkit-transform: perspective(600px) rotateY(0deg);
+	-moz-box-transform: perspective(600px) rotateY(0deg);
+	transform: perspective(600px) rotateY(0deg);
+}
+
+.info{
+	float: left;
+	width: 180px;
+	height: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.cover{
+	width: 180px;
+	height: 140px;;
+	text-align: center;
+	background-color: #ADADAD;
+	color: #525252;
+	position: absolute;
+	font-size: 40px;
+	padding-top: 60px;
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+	
+}
+
+.cover:hover {
+    opacity: 0;
+	
+	
+	
+}
+
+.language{
+	margin: 0;	
+}
+
+.text{
+	width: 176px;
+	height: 196px;
+	background-color: #A986AD;
+	padding: 2px;
+	font-size: 11px;
+}
+
+
+.note{
+	color: #66FF00;
+	font-family: "Times New Roman";
+	clear: left;
+}
