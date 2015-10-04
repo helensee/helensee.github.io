@@ -17,6 +17,10 @@ Linear Optimization
 
 Design and Analysis of Computer Algorithms
 
+Discrete 1
+
+Discrete 2
+
 Data Structures
 
 Introduction to Computer Science
