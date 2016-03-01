@@ -13,7 +13,7 @@ Principles of Information and Data Management
 Linear Optimization
 
 
-###Previous:
+### Previous:
 
 Design and Analysis of Computer Algorithms
 
