@@ -1,9 +1,9 @@
 # Site settings
 title: Helen See 
-email: hls70@scarletmail.rutgers.edu
+email: helen.li.see@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+#baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username: helensee
 #linkedin username:
@@ -12,3 +12,4 @@ github_username: helensee
 markdown: kramdown
 kramdown:
   input: GFM
+permalink: pretty
