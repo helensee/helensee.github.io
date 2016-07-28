@@ -7,6 +7,10 @@
     
 }
 
+p {
+    font-size: 15px !important;
+}
+
 #projects a,
 #projects a:focus,
 #projects a:active{
@@ -22,4 +26,16 @@
 
 #header{
     
+}
+
+.box{
+    float: left;
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    margin: 1%;
+}
+.boxwrapper{
+    clear: both;
+    overflow: auto;
 }
