@@ -5,6 +5,8 @@ import About from './About.jsx';
 import Resume from './Resume.jsx';
 import Projects from './Projects.jsx';
 
+import './css/common.css';
+
 class Home extends Component {
   state = {
     margin:"0 0 0 220px",
