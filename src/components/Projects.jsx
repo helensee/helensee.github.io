@@ -33,14 +33,15 @@ class Projects extends Component {
                 <Col>Python, Databricks, Sparkql, GraphDB, S3, ElasticSearch(OpenDistro)</Col>
               </Row>
               <Row>
-                <Col><h3>Description</h3></Col>
+                <Col><br /><h3>Description</h3></Col>
               </Row>
               <Row>
                 <Col>Main purpose is to use external data as test data and to showcase different types 
-                of recommendations to end users. This python data pipeline focuses on grabbing external 
-                data from a publically available GraphDB. That content goes through the machine 
-                learning models with an output of vectors that are put into S3. Content is cleaned 
-                up and formated with feature vectors and external images to be placed in our ElasticSearch.</Col>
+                of recommendations to end users. This python data pipeline focuses on grabbing specific external 
+                data from a publicaly available graphDB and saving into the team's internal graphDB. 
+                Then later, the content is accessed and modified to include feature vectors, located in S3, and 
+                image urls, access from an external API. That is then placed into ElasticSearch. There is also
+                additional code for reindexing or updating fields for the purpose of testing.</Col>
               </Row>
             </Col>
           </Row>
