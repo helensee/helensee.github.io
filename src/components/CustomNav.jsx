@@ -28,6 +28,12 @@ function CustomNav() {
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link href="#projects">Projects</Nav.Link>
+                        <Nav.Item style={{ fontSize:"0.5em" }}>
+                            <Nav.Link href="#python-pipeline">Python Data Pipeline</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item style={{ fontSize:"0.5em" }}>
+                            <Nav.Link href="#flask-react-app">Flask and React App</Nav.Link>
+                        </Nav.Item>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link href="#resume">Resume</Nav.Link>

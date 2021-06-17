@@ -16,7 +16,7 @@ class Home extends Component {
     return (
       <div className="Home">
         <header></header>
-        <div class="customNav"><CustomNav></CustomNav></div>
+        <div className="customNav"><CustomNav></CustomNav></div>
         <div id="about">
             <About background_color="white" margin={this.state.margin} padding={this.state.padding}></About>
             </div>
