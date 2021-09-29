@@ -18,13 +18,13 @@ class Home extends Component {
         <header></header>
         <div className="customNav"><CustomNav></CustomNav></div>
         <div id="about">
-            <About background_color="white" margin={this.state.margin} padding={this.state.padding}></About>
+            <About background_color="#E8E8E8" margin={this.state.margin} padding={this.state.padding}></About>
             </div>
         <div id="projects">
-          <Projects background_color="#E8E8E8" margin={this.state.margin} padding={this.state.padding}></Projects>
+          <Projects background_color="white" margin={this.state.margin} padding={this.state.padding}></Projects>
         </div>
         <div id="resume">
-        <Resume background_color="white" margin={this.state.margin} padding={this.state.padding}></Resume>
+        <Resume background_color="#E8E8E8" margin={this.state.margin} padding={this.state.padding}></Resume>
         </div>
       </div>
     );

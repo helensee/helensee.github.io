@@ -12,6 +12,51 @@ class Projects extends Component {
           <p>Some diagrams and explanations of some project/work that I have done.</p>
           { /***********************************************************************/}
           <br />
+          {/*
+          <Row>
+            <Col>
+              <h3 id="java-spring-application">Java Spring Application</h3>
+            </Col>
+          </Row>
+          <Row>
+            <Col style={{ backgroundColor:"white"}}>
+              <Row>
+                <Col>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <img style={{ maxWidth:"400px", maxHeight:"300px" }} alt="" src=""/>
+                  </a>
+                </Col>
+              </Row>
+              <Row>
+                <Col><br /></Col>
+              </Row>
+              <Row>
+                <Col>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <img style={{ maxWidth:"400px", maxHeight:"300px" }} alt="" src=""/>
+                  </a>    
+                </Col>
+              </Row>
+            </Col>
+            <Col>
+              <Row>
+                <Col><h3>Tech</h3></Col>
+              </Row>
+              <Row>
+                <Col></Col>
+              </Row>
+              <Row>
+                <Col><br /><h3>Description</h3></Col>
+              </Row>
+              <Row>
+                <Col></Col>
+              </Row>
+            </Col>
+          </Row>
+          <br />
+          */}
+          { /***********************************************************************/}
+          <br />
           <Row>
             <Col>
               <h3 id="python-pipeline">Python Data Pipeline</h3>
@@ -50,10 +95,10 @@ class Projects extends Component {
               <Row>
                 <Col>Main purpose is to use external data as test data and to showcase different types 
                 of recommendations to end users. Using databricks, python grabs specific external 
-                data from a publicly available graphDB and saving into an internal graphDB. 
+                data from a publicly available graphDB, reformatting data and placing documents into ElasticSearch. 
                 Then later, the content is accessed and modified to include feature vectors, located in S3, and 
-                image urls, access from an external API. That is then placed into ElasticSearch. There is 
-                additional code for reindexing or updating fields for the purpose of testing.</Col>
+                image urls, access from an external API. That is then placed into ElasticSearch with a different index. 
+                There is additional code for reindexing or updating fields for the purpose of testing.</Col>
               </Row>
             </Col>
           </Row>
